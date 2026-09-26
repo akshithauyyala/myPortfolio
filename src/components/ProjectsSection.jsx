@@ -6,7 +6,7 @@ import projectThreeImage from '../asserts/project3.jpg'
 const projects = [
   { title: 'Blog website', description: 'A clean, responsive publishing experience built around readable stories and a focused interface.', technologies: ['HTML', 'CSS', 'JavaScript', 'React'], image: projectOneImage, link: '#projects' },
   { title: 'AI chatbot', description: 'A Python-powered conversational assistant designed to make intelligent interaction feel natural.', technologies: ['Python', 'AI',], image: projectTwoImage, link: '#projects' },
-  { title: 'URL shortener', description: 'A lightweight utility for turning long links into simple, shareable URLs with a clear workflow.', technologies: ['HTML', 'CSS', 'JavaScript'], image: projectThreeImage, link: '#projects' },
+  { title: 'URL shortener', description: 'A lightweight utility for turning long links into simple, shareable URLs with a clear workflow.', technologies: ['HTML', 'CSS', 'JavaScript'], image: projectThreeImage, link: 'https://akshithauyyala.github.io/URL-shortener/' },
 ]
 
 function ProjectCard({ project }) {
