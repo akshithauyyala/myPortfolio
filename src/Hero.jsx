@@ -11,7 +11,7 @@ const socialLinks = [
   { label: 'Email', href: 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1', iconClass: 'fa-solid fa-envelope' },
 ]
 
-const spotifyLink = 'https://open.spotify.com/'
+const spotifyLink = 'https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=1bdb300b88734766'
 const favouriteText = Array.from('CURRENT FAVOURITE · ')
 
 function Brand() {
