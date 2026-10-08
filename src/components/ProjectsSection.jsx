@@ -4,8 +4,8 @@ import projectTwoImage from '../asserts/project2.webp'
 import projectThreeImage from '../asserts/project3.jpg'
 
 const projects = [
-  { title: 'Blog website', description: 'A clean, responsive publishing experience built around readable stories and a focused interface.', technologies: ['HTML', 'CSS', 'JavaScript', 'React'], image: projectOneImage, link: '#projects' },
-  { title: 'AI chatbot', description: 'A Python-powered conversational assistant designed to make intelligent interaction feel natural.', technologies: ['Python', 'AI',], image: projectTwoImage, link: '#projects' },
+  { title: 'Blog website', description: 'A clean, responsive publishing experience built around readable stories and a focused interface.', technologies: ['HTML', 'CSS', 'JavaScript',], image: projectOneImage, link: 'https://akshithauyyala.github.io/Blog-website/' },
+  { title: 'AI chatbot', description: 'A Python-powered conversational assistant designed to make intelligent interaction feel natural.', technologies: ['Python', 'AI',], image: projectTwoImage, link: 'https://akshithauyyala.github.io/AI-chatbot/' },
   { title: 'URL shortener', description: 'A lightweight utility for turning long links into simple, shareable URLs with a clear workflow.', technologies: ['HTML', 'CSS', 'JavaScript'], image: projectThreeImage, link: 'https://akshithauyyala.github.io/URL-shortener/' },
 ]
 
@@ -22,7 +22,7 @@ function ProjectCard({ project }) {
         <div className="project-technologies" aria-label={`Technologies used for ${project.title}`}>
           {project.technologies.map((technology) => <span key={technology}>{technology}</span>)}
         </div>
-        <a className="project-link" href={project.link} aria-label={`View ${project.title}`}>
+        <a className="project-link" href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title}`}>
           <span>View project</span>
           <ArrowUpRight size={16} aria-hidden="true" />
         </a>
